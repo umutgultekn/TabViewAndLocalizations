@@ -11,7 +11,24 @@ import SwiftUI
 struct DunyaGezginiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView{
+                ContentView()
+                    .tabItem {
+                        HStack{
+                            Image(systemName: "thermometer")
+                            Text("TAB_TEMPRETURE")
+                        }
+                    }
+                MapView()  .tabItem {
+                    HStack{
+                        Image(systemName: "map")
+                        Text("TAB_MAP")
+                    }
+                    
+                }
+            }
+            .accentColor(.purple)
+            
         }
     }
 }

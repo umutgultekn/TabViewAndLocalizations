@@ -1,0 +1,26 @@
+/* No comment provided by engineer. */
+"MAP_CITY_ISTANBUL" = "Istanbul";
+
+/* No comment provided by engineer. */
+"MAP_CITY_LONDON" = "London";
+
+/* No comment provided by engineer. */
+"TAB_MAP" = "Map";
+
+/* Localizable.strings
+  DunyaGezgini
+
+  Created by Umut Gultekin on 23.10.2021. */
+"TAB_TEMPRETURE" = "Tempreture";
+
+/* No comment provided by engineer. */
+"TEMPRETURE_DEGREES_CELCIUS" = "degrees Celcius";
+
+/* No comment provided by engineer. */
+"TEMPRETURE_FAHRENHEIT" = "fahrenheit";
+
+/* No comment provided by engineer. */
+"TEMPRETURE_IS_ACTUALLY" = "is actually";
+
+"TEMPRETURE_TEXT_FIELD_PLACEHOLDER" = "value";
+

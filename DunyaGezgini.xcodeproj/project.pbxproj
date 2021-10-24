@@ -14,6 +14,9 @@
 		BD0D06BD2714C28D00FC4E7C /* DunyaGezginiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D06BC2714C28D00FC4E7C /* DunyaGezginiTests.swift */; };
 		BD0D06C72714C28D00FC4E7C /* DunyaGezginiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D06C62714C28D00FC4E7C /* DunyaGezginiUITests.swift */; };
 		BD0D06C92714C28D00FC4E7C /* DunyaGezginiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D06C82714C28D00FC4E7C /* DunyaGezginiUITestsLaunchTests.swift */; };
+		BDCC36FD2724448000924C59 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDCC36FF2724448000924C59 /* Localizable.strings */; };
+		BDCC370327259F7100924C59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDCC370527259F7100924C59 /* InfoPlist.strings */; };
+		BDE729D8271EE6A5001CB59E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE729D7271EE6A5001CB59E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,11 @@
 		BD0D06C22714C28D00FC4E7C /* DunyaGezginiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DunyaGezginiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0D06C62714C28D00FC4E7C /* DunyaGezginiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunyaGezginiUITests.swift; sourceTree = "<group>"; };
 		BD0D06C82714C28D00FC4E7C /* DunyaGezginiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunyaGezginiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDCC36FE2724448000924C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDCC370027259A8500924C59 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDCC370427259F7100924C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDCC370627259F7400924C59 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDE729D7271EE6A5001CB59E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +104,11 @@
 			children = (
 				BD0D06AB2714C28C00FC4E7C /* DunyaGezginiApp.swift */,
 				BD0D06AD2714C28C00FC4E7C /* ContentView.swift */,
+				BDCC370527259F7100924C59 /* InfoPlist.strings */,
+				BDE729D7271EE6A5001CB59E /* MapView.swift */,
 				BD0D06AF2714C28D00FC4E7C /* Assets.xcassets */,
 				BD0D06B12714C28D00FC4E7C /* Preview Content */,
+				BDCC36FF2724448000924C59 /* Localizable.strings */,
 			);
 			path = DunyaGezgini;
 			sourceTree = "<group>";
@@ -213,6 +224,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = BD0D069F2714C28C00FC4E7C;
 			productRefGroup = BD0D06A92714C28C00FC4E7C /* Products */;
@@ -232,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0D06B32714C28D00FC4E7C /* Preview Assets.xcassets in Resources */,
+				BDCC370327259F7100924C59 /* InfoPlist.strings in Resources */,
+				BDCC36FD2724448000924C59 /* Localizable.strings in Resources */,
 				BD0D06B02714C28D00FC4E7C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +273,7 @@
 			files = (
 				BD0D06AE2714C28C00FC4E7C /* ContentView.swift in Sources */,
 				BD0D06AC2714C28C00FC4E7C /* DunyaGezginiApp.swift in Sources */,
+				BDE729D8271EE6A5001CB59E /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +308,27 @@
 			targetProxy = BD0D06C32714C28D00FC4E7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDCC36FF2724448000924C59 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCC36FE2724448000924C59 /* en */,
+				BDCC370027259A8500924C59 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BDCC370527259F7100924C59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCC370427259F7100924C59 /* en */,
+				BDCC370627259F7400924C59 /* tr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BD0D06CA2714C28D00FC4E7C /* Debug */ = {

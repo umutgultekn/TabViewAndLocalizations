@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  DunyaGezgini
+
+  Created by Umut Gultekin on 24.10.2021.
+  
+*/
+"CFBundleName" = "World Trotter";
+"CFDisplayName" = "World Trotter";
